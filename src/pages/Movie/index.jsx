@@ -2,7 +2,7 @@ import {Container,Content,Range} from './styles';
 import { FiArrowLeft, FiStar,  } from "react-icons/fi"
 import { FaStar, FaRegClock } from "react-icons/fa"
 import {Header} from '../../componets/Header'
-
+import { Link } from "react-router-dom"
 export function Movie(){
   return (
     <Container>
@@ -10,7 +10,7 @@ export function Movie(){
       <Content>
         <div>
           <FiArrowLeft />
-          <span>voltar</span>
+          <Link to="/">voltar</Link>
         </div>
         <div className="star">
           <h2>

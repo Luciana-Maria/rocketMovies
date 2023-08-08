@@ -1,8 +1,9 @@
 import {Container,Content, Range, Img} from './styles';
 import {Header} from '../../componets/Header';
 import {Button} from '../../componets/Button';
-import { FaStar, } from "react-icons/fa"
-import { FiStar, } from "react-icons/fi"
+import { FaStar, } from "react-icons/fa";
+import { FiStar, } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
 export function Home(){
   return (
@@ -12,7 +13,9 @@ export function Home(){
       <header>
         <h1>Meus filmes</h1>
         <span>
-          <Button title=" + Adicionar um título" />
+
+         <Link to="/create"> <Button title=" + Adicionar um título" /> </Link>
+
         </span>
       </header>
       <Img>

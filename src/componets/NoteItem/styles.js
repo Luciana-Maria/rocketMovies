@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
 
   background-color: ${({ theme, isNew }) =>
-    isNew ? "transparent" : theme.COLORS.BACKGROUND_900};
+    isNew ? "transparent" : theme.COLORS.BACKGROUND_600};
 
   color: ${({ theme, isNew }) => theme.COLORS.GRAY_300};
   border: ${({ theme, isNew }) =>
@@ -20,10 +20,10 @@ export const Container = styled.div`
     background: none;
   }
   .button-delete {
-    color: ${({ theme }) => theme.COLORS.RED};
+    color: ${({ theme }) => theme.COLORS.ROSE};
   }
   .button-add {
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.ROSE};
   }
   > input {
     height: 56px;
