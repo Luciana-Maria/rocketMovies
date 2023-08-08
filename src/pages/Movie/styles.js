@@ -37,7 +37,6 @@ export const Content = styled.div`
   }
   img {
     display: flex;
-    flex-direction: row-reverse;
     padding-right: 0;
   }
 
@@ -72,6 +71,6 @@ export const Range = styled.div`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   color: ${({ theme }) => theme.COLORS.GRAY_100};
   padding:6px;
-  border-radius:15%;
+  border-radius:10px;
   }
 `
